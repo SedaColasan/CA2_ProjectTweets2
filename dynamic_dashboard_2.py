@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Load your NLP dataset (modify this with your data)
 tw = pd.read_csv("ProjectTweets.csv", encoding = 'latin', header=None) 
 
-tw = tw.rename(columns={0: 'number', 1: 'id_tweet', 2: 'date', 3: 'query', 4: 'user_id', 5: 'tweet'}) 
+tw = tw.rename(columns={0: 'number', 1: 'id_tweet', 2: 'date', 3: 'query', 4: 'user_id', 5: 'tweets'}) 
 
 
 # Create a Streamlit app
